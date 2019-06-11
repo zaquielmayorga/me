@@ -22,7 +22,7 @@ body{
 .site-container{
     width: 100vw;
     max-width: 200vh;
-    height: -webkit-fill-available;
+    height: 100vh;
     max-height: 100vw;
     display: flex;
     justify-content: center;
@@ -225,6 +225,10 @@ a svg #medium{
 }
 
 /*--------------------------------------
+     ### END DESKTOP ###
+--------------------------------------*/
+
+/*--------------------------------------
      ### TABLET ###
 --------------------------------------*/
 
@@ -234,6 +238,8 @@ a svg #medium{
   and (max-device-width: 1199px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
+
+
 
     .site-container {
         flex-direction: column-reverse;
