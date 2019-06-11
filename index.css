@@ -14,6 +14,7 @@ body{
     padding: 0px;
     width: 100vw;
     background-color: #00508B;
+
 }
 
 .site-container{
@@ -82,7 +83,7 @@ body{
     line-height: 1.15em;
     text-transform: none;
     letter-spacing: .01em;
-    color: #a3a3a3;
+    color: #ffffff;
 }
 
 .contact_box{
@@ -102,7 +103,7 @@ body{
     letter-spacing: .02em;
     font-style: normal;
     text-decoration: none;
-    color: #a3a3a3;
+    color: #ffffff;
 }
 
 .sm_icons{
@@ -145,7 +146,7 @@ a{
 }
 
 .icon{
-    fill: #00508B;
+    fill: rgb(255, 255, 255);
 }
 
 a svg:hover #youtube,
@@ -156,8 +157,8 @@ a svg:hover #instagram_3,
 a svg:hover #reddit,
 a svg:hover #facebook,
 a svg:hover #medium{ 
-fill: rgb(255, 255, 255);
-fill-opacity: 0.4;
+fill: #A7A9AC;
+fill-opacity: 1;
 }
 
 a svg #youtube,
@@ -205,8 +206,8 @@ a svg #medium{
 }
 
 #thony_path{
-    fill: #B6B9C7;
-    fill-opacity: 0.4;
+    fill: #00508B;
+    fill-opacity: 0;
 }
 
 .container_user_2{
@@ -229,8 +230,8 @@ a svg #medium{
 }
 
 #zaquiel_path{
-    fill: #4BF2F2;
-    fill-opacity: 0.4;
+    fill: rgb(255, 255, 255);
+    fill-opacity: 1;
 }
 
 .container_icons_general{
