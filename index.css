@@ -208,6 +208,7 @@ a svg #medium{
 #thony_path{
     fill: #00508B;
     fill-opacity: 0;
+    display: none;
 }
 
 .container_user_2{
