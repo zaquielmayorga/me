@@ -331,7 +331,6 @@ a svg #medium{
     .section_info{
         width: 100vw;
         height: 55vh;
-        display: flex;
         justify-content: center;
         align-items: flex-end;
     }
@@ -371,8 +370,8 @@ a svg #medium{
     }
 
     .contact_box{
-        height: 6vh;
-        max-height: 16vw;
+        height: 12vh;
+        max-height: 12vw;
     }
 
     #icon_medium{
@@ -390,8 +389,8 @@ a svg #medium{
     .icon_wrapper {
         width: 14vh;
         max-width: 14vw;
-        height: 10vh;
-        max-height: 10vw;
+        height: 12vh;
+        max-height: 12vw;
     }
 
     .icon,
@@ -436,135 +435,94 @@ a svg #medium{
   and (max-device-width: 839px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    .site-container {
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .section_info{
-        margin-top: 0;
-        width: fit-content;
-        height: fit-content;
-        display: flex;
-        justify-content: center;
-    }
 
-    .info{
-        margin-top: 0%;
-        width: 95%;
-        display: block;
+    .section_info{
+        width: 53vw;
+        height: 100vh;
         justify-content: left;
         align-items: center;
     }
 
-    .logo{
-        height: 50px;
+    .info{
         display: flex;
-        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
     }
 
-    #isologo{
-        width: 200px;
+    #isologo {
+        height: 16vh;
+        max-height: 16vw;
+    }
+
+    .logo {
+        height: 20vh;
+        max-height: 20vw;
     }
 
     .text_box{
-        width: fit-content;
-        height: fit-content;
-        display: flex;
+        width: 75vh;
+        max-width: 75vw;
+        height: 23vh;
+        max-height: 23vw;
         justify-content: center;
     }
-    
-    .rrss_box{
-        margin-left: 0px;
-        width: 300px;
-    }
-    
+
     #text_1,
     #text_2{
-        width: 280px;
-        font-size: 18px;
+        font-size: 4.2vh;
         text-align: left;
-    }
-    
-    #text_1{
-        margin: 0 0 0 0;    
-    }
-
-    #text_2{
-        margin: 0 0 0 0;
     }
 
     .contact_box{
-        margin: 20px 0 20px 0;
-    }
-
-    .rrss_box{
-        display: flex;
-        align-items: center;
-        height: 35px;
-    }
-
-    .icon_wrapper{
-        width: 35px;
-        height: 35px;
-    }
-
-    .icon{
-        width: 35px;
-        height: 35px;
+        height: 10vh;
+        max-height: 10vw;
     }
 
     .sm_icons{
         flex-wrap: wrap;
+        justify-content: center;
     }
 
-    .section_img,
-    .container_img{
-        height: auto;
-        display: flex;
-        max-width: 50vw;
+    .icon_wrapper {
+        width: 13vh;
+        max-width: 13vw;
+        height: 10vh;
+        max-height: 10vw;
+    }
+
+    .icon{
+        width: 10vh;
+        max-width: 10vw;
+        height: 10vh;
+        max-height: 10vw;
+    }
+
+    .section_img{
+        width: 47vw;
+        height: 100vh;
     }
 
     .container_img{
-        margin-top: 80px;
         display: flex;
         justify-content: center;
-        align-items: center;
     }
 
     .container_icon_link{
-        width: 150px;
-        height: 250px;
-    }
-
-    .container_icons_general,
-    .container_icons_links{
-        max-width: fit-content;
-        width: fit-content;
-        justify-content: flex-end;
+        width: 200px;
+        height: 380px;
     }
 
     .user_icon{
-    width: 255px;
-    height: 255px;
+    width: 70vh;
+    height: 70vh;
     }
 
-    .container_user{
-        margin-right: 0;
-    }
-
-    .container_user{
-        margin-left: -110px;
-    }
-
-    .container_link{
-        margin-top: 20px;
-        height: 100vh;
+    .link_box{
+        width: 70vh;
+        height: 70vh;
         display: flex;
-        align-items: flex-end;
     }
+      
+    
 }
