@@ -13,6 +13,7 @@ body{
     border: 0px;
     padding: 0px;
     width: 100vw;
+    background-color: #00508B;
 }
 
 .site-container{
@@ -144,7 +145,7 @@ a{
 }
 
 .icon{
-    fill: #B6B9C7;
+    fill: #00508B;
 }
 
 a svg:hover #youtube,
@@ -155,7 +156,7 @@ a svg:hover #instagram_3,
 a svg:hover #reddit,
 a svg:hover #facebook,
 a svg:hover #medium{ 
-fill: #4AF2F2;
+fill: rgb(255, 255, 255);
 fill-opacity: 0.4;
 }
 
