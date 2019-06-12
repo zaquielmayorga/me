@@ -214,6 +214,10 @@ a svg #medium{
     display: flex;
 }
 
+/*--------------------------------------
+     ### END DESKTOP ###
+
+
 @media only screen 
   and (min-device-height: 1200px) 
   and (orientation: portrait){
@@ -225,6 +229,7 @@ a svg #medium{
         }
     } 
 }
+--------------------------------------*/
 
 /*--------------------------------------
      ### END DESKTOP ###
