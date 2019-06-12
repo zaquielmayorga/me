@@ -108,11 +108,13 @@ body{
 }
 
 .sm_icons{
+    width: 40vh;
+    max-width: 40vw;
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     margin: 0;
     padding: 0;
-    width: fit-content;
 }
 
 ul, ol, li{
@@ -122,8 +124,8 @@ ul, ol, li{
 .icon_wrapper{
     width: 7vh;
     max-width: 7vw;
-    height: 5vh;
-    max-height: 5vw;
+    height: 7vh;
+    max-height: 7vw;
     display: flex;
     justify-content: left;
     align-items: flex-start;
@@ -248,7 +250,7 @@ a svg #medium{
 
     .section_info{
         width: 100vw;
-        height: 50vh;
+        height: 55vh;
         display: flex;
         justify-content: center;
         align-items: flex-end;
@@ -279,21 +281,35 @@ a svg #medium{
 
     .contact_box{
         height: 6vh;
-        max-height: 16vw;
-    }
-
-    #icon_medium{
-        width: 5vh;
-        max-width: 5vw;
+        max-height: 6vw;
     }
 
     .sm_icons{
+        width: 45vh;
+        max-width: 45vw;
         flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .icon_wrapper {
+        width: 9vh;
+        max-width: 9vw;
+        height: 9vh;
+        max-height: 9vw;
+    }
+
+    .icon,
+    #icon_codepen,
+    #icon_spotify{
+        width: 6vh;
+        max-width: 6vw;
+        height: 6vh;
+        max-height: 6vw;
     }
 
     .section_img{
         width: 100vw;
-        height: 50vh;
+        height: 45vh;
     }
 
     .container_img{
@@ -376,18 +392,13 @@ a svg #medium{
     }
 
     .contact_box{
-        height: 12vh;
-        max-height: 12vw;
-    }
-
-    #icon_medium{
-        width: 5vh;
-        max-width: 5vw;
+        height: 10vh;
+        max-height: 10vw;
     }
 
     .sm_icons{
-        width: 50vh;
-        max-width: 50vw;
+        width: 75vh;
+        max-width: 75vw;
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -395,13 +406,13 @@ a svg #medium{
     .icon_wrapper {
         width: 14vh;
         max-width: 14vw;
-        height: 12vh;
-        max-height: 12vw;
+        height: 14vh;
+        max-height: 14vw;
     }
 
     .icon,
-    #icon_instagram,
-    #icon_medium{
+    #icon_codepen,
+    #icon_spotify{
         width: 10vh;
         max-width: 10vw;
         height: 10vh;
@@ -486,6 +497,8 @@ a svg #medium{
     }
 
     .sm_icons{
+        width: 75vh;
+        max-width: 75vw;
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -493,8 +506,8 @@ a svg #medium{
     .icon_wrapper {
         width: 13vh;
         max-width: 13vw;
-        height: 10vh;
-        max-height: 10vw;
+        height: 13vh;
+        max-height: 13vw;
     }
 
     .icon{
