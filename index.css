@@ -221,7 +221,7 @@ a svg #medium{
     and (min-device-height: 100vw){
         #text_1,
         #text_2{
-            font-size: 26px;
+            font-size: 2.6vw;
         }
     } 
 }
