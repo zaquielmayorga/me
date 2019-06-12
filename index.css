@@ -500,7 +500,7 @@ a svg #medium{
         width: 75vh;
         max-width: 75vw;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: left;
     }
 
     .icon_wrapper {
