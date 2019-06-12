@@ -271,10 +271,10 @@ a svg #medium{
     }
 
     .text_box{
-        width: 45vh;
-        max-width: 45vw;
-        height: 18vh;
-        max-height: 18vw;
+        width: 60vh;
+        max-width: 60vw;
+        height: 20vh;
+        max-height: 20vw;
         justify-content: center;
     }
 
