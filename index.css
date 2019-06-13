@@ -15,7 +15,7 @@ body{
     margin: 0%;
     border: 0px;
     padding: 0px;
-    background-color: rgb(60, 0, 139);
+    background-color: #f2f2f2;;
 
 }
 
@@ -36,9 +36,8 @@ body{
 }
 
 .container_img{
-    display: flex;
-    width: fit-content;
-    display: flex;
+    width: 100%;
+    display: -webkit-box;
     align-items: flex-end;
     justify-content: center;
 }
@@ -83,7 +82,7 @@ body{
     line-height: 1.15em;
     text-transform: none;
     letter-spacing: .01em;
-    color: #ffffff;
+    color: #F24151;
 }
 
 .contact_box{
@@ -104,7 +103,7 @@ body{
     letter-spacing: .02em;
     font-style: normal;
     text-decoration: none;
-    color: #ffffff;
+    color: #F24151;
 }
 
 .sm_icons{
@@ -132,7 +131,7 @@ ul, ol, li{
 }
 
 .icon{
-    fill: rgb(255, 255, 255);
+    fill: #F24151;
     width: 5vh;
     max-width: 5vw;
     height: 5vh;
@@ -144,10 +143,17 @@ a svg:hover #twitter,
 a svg:hover #instagram,
 a svg:hover #instagram_2,
 a svg:hover #instagram_3,
+a svg:hover #github,
+a svg:hover #pinterest,
+a svg:hover #linkedin,
 a svg:hover #reddit,
 a svg:hover #facebook,
-a svg:hover #medium{ 
+a svg:hover #medium,
+a svg:hover #spotify{ 
 fill: #A7A9AC;
+fill-opacity: 1;
+} 
+fill: #F24151;
 fill-opacity: 1;
 }
 
@@ -173,6 +179,13 @@ a svg #medium{
     justify-content: center;
 }
 
+.container_link{
+    margin-left: -100%;
+    width: inherit;
+    display: flex;
+    justify-content: center;    
+}
+
 .container_icon{
     width: fit-content;
     height: fit-content;
@@ -183,35 +196,27 @@ a svg #medium{
 
 .user_icon{
     width: 68vh;
-    max-width: 68vw;
+    max-width: 55vw;
     height: 68vh;
-    max-height: 68vw;
+    max-height: 55vw;
 }
 
 #zaquiel_path{
-    fill: rgb(255, 255, 255);
+    fill: #F24151;
     fill-opacity: 1;
 }
 
-.container_icons_general{
-    margin: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-.container_icons_links{
-    position: absolute;
-    display: flex;
-    width: fit-content
-}
-
 .link_box{
-    width: 68vh;
-    max-width: 68vw;
-    height: 68vh;
-    max-height: 68vw;
+    width: 50%;
+    height: fit-content;
     display: flex;
+}
+
+.link{
+    width: 68vh;
+    max-width: 55vw;
+    height: 68vh;
+    max-height: 55vw;
 }
 
 /*--------------------------------------
