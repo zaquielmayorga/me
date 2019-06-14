@@ -172,7 +172,7 @@ a svg #medium{
 }
 
 .container_user{
-    width: fit-content;
+    width: 100%;
     height: fit-content;
     display: flex;
     align-items: flex-end;
@@ -181,7 +181,7 @@ a svg #medium{
 
 .container_link{
     margin-left: -100%;
-    width: inherit;
+    width: 100%;
     display: flex;
     justify-content: center;    
 }
