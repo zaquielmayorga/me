@@ -108,7 +108,18 @@ body{
     color: #F24151;
 }
 #text_3{
-H1 font-size: 3.0vh;
+H1 font-size: 2.0vh;
+width: fit-content;
+height: fit-content;
+font-family: Helvetica, sans-serif;
+font-weight: 700;
+font-style: normal;
+text-transform: uppercase;
+text-transform: none;
+letter-spacing: .01em;
+font-style: normal;
+text-decoration: none;
+color: #F24151;
 }
 .sm_icons{
     width: 40vh;
