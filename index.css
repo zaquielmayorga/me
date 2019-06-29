@@ -8,6 +8,7 @@
     padding: 0px;
 }
 
+
 body{
     display: flex;
     justify-content: center;
@@ -83,6 +84,7 @@ body{
     text-transform: none;
     letter-spacing: .01em;
     color: #F24151;
+
 }
 
 .contact_box{
@@ -105,7 +107,9 @@ body{
     text-decoration: none;
     color: #F24151;
 }
-
+#text_3{
+H1 font-size: 3.0vh;
+}
 .sm_icons{
     width: 40vh;
     max-width: 40vw;
