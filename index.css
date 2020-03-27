@@ -16,7 +16,7 @@ body{
     margin: 0%;
     border: 0px;
     padding: 0px;
-    background-color: #f2f2f2;;
+    background-color: #161616;;
 
 }
 
@@ -83,7 +83,7 @@ body{
     line-height: 1.15em;
     text-transform: none;
     letter-spacing: .01em;
-    color: #F24151;
+    color: #D4AF37;
 
 }
 
@@ -105,7 +105,7 @@ body{
     letter-spacing: .02em;
     font-style: normal;
     text-decoration: none;
-    color: #F24151;
+    color: #D4AF37;
 }
 #text_3{
 H1 font-size: 2.0vh;
@@ -119,7 +119,7 @@ text-transform: none;
 letter-spacing: .01em;
 font-style: normal;
 text-decoration: none;
-color: #F24151;
+color: #D4AF37;
 }
 .sm_icons{
     width: 40vh;
@@ -146,7 +146,7 @@ ul, ol, li{
 }
 
 .icon{
-    fill: #F24151;
+    fill: #D4AF37;
     width: 5vh;
     max-width: 5vw;
     height: 5vh;
@@ -217,7 +217,7 @@ a svg #medium{
 }
 
 #zaquiel_path{
-    fill: #F24151;
+    fill: #D4AF37;
     fill-opacity: 1;
 }
 
