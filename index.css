@@ -32,7 +32,7 @@ body{
 .section_img{
     width: 55%;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
 }
 
